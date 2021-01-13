@@ -1,0 +1,39 @@
+ 
+ 
+ 
+ 
+ 
+ Beginning of Evolution Validation Script
+ Will Sharpless
+12 January 2021   2:27:13.732 PM
+ 
+ 
+ 
+Reading the Native Communities, and their NC-SC interactions, from ...
+ Ten_Top_Scoring_SC/KillerComm_678_stode_final_parameters.csv                                        
+ Ten_Top_Scoring_SC/KillerComm_799_stode_final_parameters.csv                                        
+ Ten_Top_Scoring_SC/KillerComm_1056_stode_final_parameters.csv                                       
+ Ten_Top_Scoring_SC/KillerComm_1189_stode_final_parameters.csv                                       
+ Ten_Top_Scoring_SC/KillerComm_1278_stode_final_parameters.csv                                       
+ 
+ 
+Reading the Throughbred Lambdas, and their NC-SC interactions
+ Number of NaN-tending NC (10k hrs):
+          84  / 1000
+ Number of NC where xfp(MOI) > 1E-8 naturally:
+         321  / 1000
+ 
+ Original Support Community:         678
+ - # of comm where xfp(MOI) > 1E-8, with original SC {a_nc-sc}:          340 /1000
+ - # of comm where xfp(MOI) > 1E-8, with 5 different {a_nc-sc}:         1984 /5000
+ (NaNs:          970  /5000 )
+ 
+ Evolved Support Community:    seed678_v1_60its_run6
+ - # of comm where xfp(MOI) > 1E-8, with original SC {a_nc-sc}:          621 /1000
+ - # of comm where xfp(MOI) > 1E-8, with 5 different {a_nc-sc}:         3363 /5000
+ (NaNs:          704  /5000 )
+ 
+ Evolved Support Community:    seed678_v1_300its_run3
+ - # of comm where xfp(MOI) > 1E-8, with original SC {a_nc-sc}:          643 /1000
+ - # of comm where xfp(MOI) > 1E-8, with 5 different {a_nc-sc}:         3565 /5000
+ (NaNs:          676  /5000 )
